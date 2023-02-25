@@ -3,11 +3,11 @@ import 'package:todo_list_app/module/task.dart';
 import 'package:todo_list_app/widgets/task_tile.dart';
 import 'tasks_screan.dart';
 import 'package:todo_list_app/main.dart';
+import 'package:provider/provider.dart';
+import 'package:todo_list_app/module/task_data.dart';
 
 class AddTask extends StatelessWidget {
   String currentTask = '';
-  final Function addTaskCallBack;
-  AddTask(this.addTaskCallBack);
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -37,7 +37,8 @@ class AddTask extends StatelessWidget {
                 ),
               ),
               onPressed: () {
-                addTaskCallBack((currentTask));
+                Provider.of<TaskData>(context, listen: false)
+                    .addTask(currentTask);
                 Navigator.pop(context);
               },
             ),
