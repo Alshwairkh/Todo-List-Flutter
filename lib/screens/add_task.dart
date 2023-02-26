@@ -1,8 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:todo_list_app/module/task.dart';
-import 'package:todo_list_app/widgets/task_tile.dart';
-import 'tasks_screan.dart';
-import 'package:todo_list_app/main.dart';
 import 'package:provider/provider.dart';
 import 'package:todo_list_app/module/task_data.dart';
 
