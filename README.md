@@ -7,7 +7,7 @@ In this project, I learned:
 - Why we need to manage state across our widget tree.
 - Declarative vs. imperative programming.
 - How setState works under the hood.
-- Learn about prop drilling and lifting state up.
+- Prop drilling and lifting state up.
 - About the BottomSheet widget and the ListViewBuilder.
 - Flutter app architecture design patterns.
 - Managing state with the Provider package.
