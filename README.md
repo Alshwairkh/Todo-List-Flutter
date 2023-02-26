@@ -10,7 +10,7 @@ In this project, I learned:
 - Learn about prop drilling and lifting state up.
 - About the BottomSheet widget and the ListViewBuilder.
 - Flutter app architecture design patterns.
-- Managing state with the Google recommended Provider package.
+- Managing state with the Provider package.
 
 
 <p align="center">
