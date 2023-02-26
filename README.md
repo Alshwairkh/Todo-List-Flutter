@@ -8,7 +8,7 @@ In this project, I learned:
 - Declarative vs. imperative programming.
 - How setState works under the hood.
 - Prop drilling and lifting state up.
-- About the BottomSheet widget and the ListViewBuilder.
+- BottomSheet widget and the ListViewBuilder.
 - Flutter app architecture design patterns.
 - Managing state with the Provider package.
 
