@@ -1,7 +1,7 @@
 # ToDo List
 
 
-A to do list aspp where users can add tasks and track them.
+A to do list app where users can add tasks and track them.
 
 In this project, I learned:
 - Why we need to manage state across our widget tree.
