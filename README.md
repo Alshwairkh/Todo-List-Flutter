@@ -1,16 +1,21 @@
-# todo_list_app
+# ToDo List
 
-A new Flutter project.
 
-## Getting Started
+A to do list aspp where users can add tasks and track them.
 
-This project is a starting point for a Flutter application.
+In this project, I learned:
+- Why we need to manage state across our widget tree.
+- Declarative vs. imperative programming.
+- How setState works under the hood.
+- Learn about prop drilling and lifting state up.
+- About the BottomSheet widget and the ListViewBuilder.
+- Flutter app architecture design patterns.
+- Managing state with the Google recommended Provider package.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+<p align="center">
+  <img alt="Light" src="demo.png" width="33%">
+&nbsp; &nbsp; &nbsp; &nbsp;
+  <img alt="Dark" src="demo2.png" width="33%">
+</p>
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
